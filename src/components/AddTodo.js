@@ -4,9 +4,11 @@ export default class AddTodo extends Component {
     state = {
         text: ""
     }
+
     componentWillUnmount(){
         console.log("componentWillUnmount")
     }
+
     render() {
         return (
             <div>
